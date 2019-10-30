@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.accueil{
+    background-image: url("bga.jpeg");
+    background-size: cover;
+    font-size: 20px;
+   background-repeat: no-repeat;
+}
+.body{
+    background-image: url("bga.jpeg");
+    background-size: cover;
+    font-size: 20px;
+   background-repeat: no-repeat;
+}
+.loginbox{
+    width :350px;
+    height: 45  0px;
+    background: dimgray;
+    color:#fff;
+    top:50%;
+    left:25%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.avatar{
+    width :100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left:calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: left;
+    font-size: 20px;
+}
+.loginbox input[type="submit"]
+{
+    border:none;
+    outline: none;
+    height:40px;
+    width: 150px;
+    background: #1798a1;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+
+.Global{
+    display: inline;
+    justify-content: center;
+    width: 90%;
+    border:3px;
+    
+}
+.droite{
+    float: left;
+    border-color: brown;
+    
+    width: 40%;
+    height: 600px;
+}
+
+.droite1{
+    float: left;
+    border-color: brown;
+    margin-left: 20px;
+    width: 40%;
+    height: 600px;
+}
+
+.formu1{
+    width :30%;
+    height:  600px;
+    background-image: url("bga.jpeg");
+    color:rgb(255, 253, 253);
+    top:48%;
+    right:47%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.formu{
+    width :30%;
+    height:  600px;
+    background-image: url("bga.jpeg");
+    color:rgb(255, 253, 253);
+    top:46%;
+    right:47%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+.formu input[type="submit"]
+{
+    border:none;
+    outline: none;
+    height:40px;
+    width: 150px;
+    background: #3d76cc;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+.formu1 input[type="submit"]
+{
+    border:none;
+    outline: none;
+    height:40px;
+    width: 150px;
+    background: #3d76cc;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+.as{
+    border:none;
+    outline: none;
+    height:40px;
+    width: 200px;
+    background: #3d76cc;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.gauche{
+    overflow: hidden;
+    /* background-color:red; */
+    width: 60%;
+    /*height: 600px;*/
+    
+}

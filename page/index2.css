@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.accueil{
+    background-image: url("bga.jpeg");
+    background-size: cover;
+    font-size: 20px;
+   background-repeat: no-repeat;
+}
+
+.loginbox{
+    width :350px;
+    height: 45  0px;
+    background: dimgray;
+    color:#fff;
+    top:50%;
+    left:25%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.avatar{
+    width :100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left:calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: left;
+    font-size: 20px;
+}
+.loginbox input[type="submit"]
+{
+    border:none;
+    outline: none;
+    height:40px;
+    width: 150px;
+    background: #1798a1;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.Global{
+    display: inline;
+    justify-content: center;
+    width: 100%;
+    border:3px;
+    
+}
+.droite{
+    float: left;
+    border-color: brown;
+    background-color: yellow;
+    width: 40%;
+    height: 600px;
+}
+
+.gauche{
+    overflow: hidden;
+    /* background-color:red; */
+    width: 60%;
+    height: 600px;
+    
+}
